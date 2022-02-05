@@ -1,0 +1,21 @@
+*{
+    font-size: 62.5%;
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+//------------------Fuentes
+@import './fonts/typo';
+//------------------Components
+@import './Components/form';
+//------------------Layout
+@import './layout/header';
+@import './layout/footer';
+//------------------Views
+@import './Views/index';
+@import './Views/bio';
+@import'./Views/contact';
+@import'./Views/player';
+@import'./Views/side-projects';
+

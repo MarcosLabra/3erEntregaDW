@@ -1,0 +1,21 @@
+.mainHome {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../images/HomeSmall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+//---------------------------MEDIA-QUERIES
+@media (min-width: 560px) {
+    .mainHome {
+        background-image: url(../images/HomeMedium.jpg);
+        }
+}
+
+@media (min-width: 1200px) {
+    .mainHome {
+        background-image: url(../images/Home.jpg);
+        }
+}
