@@ -6,8 +6,7 @@ header{
         width: 100vw;
         div{
             .navbar-brand {
-                font-family: "DolceVita";
-                font-weight: bold;
+                font-family: "DolceBold";
                 font-size: 2rem;
                 transition: .5s;
                 img {
@@ -51,7 +50,7 @@ header{
         }
     }
     .retoquesNav {
-        font-family: "DolceVita";
+        font-family: "Dolce";
         padding: 0.5rem;
         background: whitesmoke; /* fallback for old browsers */
         background: -webkit-linear-gradient(

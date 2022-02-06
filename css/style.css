@@ -6,13 +6,12 @@
   padding: 0; }
 
 @font-face {
-  font-family: DolceVita;
-  src: url(../../fonts/DolceVita.ttf); }
+  font-family: Dolce;
+  src: url(../fonts/Dolce.ttf); }
 
 @font-face {
-  font-family: DolceVita;
-  src: url(../../fonts/DolceVitaBold.ttf);
-  font-weight: bold; }
+  font-family: DolceBold;
+  src: url(../fonts/DolceBold.ttf); }
 
 form {
   background: #0cebeb;
@@ -73,8 +72,7 @@ header .navbar {
   top: 0;
   width: 100vw; }
   header .navbar div .navbar-brand {
-    font-family: "DolceVita";
-    font-weight: bold;
+    font-family: "DolceBold";
     font-size: 2rem;
     transition: .5s; }
     header .navbar div .navbar-brand img {
@@ -98,7 +96,7 @@ header .navbar {
     background-color: teal; }
 
 header .retoquesNav {
-  font-family: "DolceVita";
+  font-family: "Dolce";
   padding: 0.5rem;
   background: whitesmoke;
   /* fallback for old browsers */
@@ -147,7 +145,7 @@ header .retoquesNav {
   padding-right: 2rem; }
   .retoquesFooter div .text-muted {
     font-size: .8rem !important;
-    font-family: "DolceVita"; }
+    font-family: "Dolce"; }
     .retoquesFooter div .text-muted p {
       margin-bottom: 0;
       font-size: 1.5rem;

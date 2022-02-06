@@ -6,7 +6,19 @@
     padding: 0;
 }
 //------------------Fuentes
-@import './fonts/typo';
+
+@font-face {
+	font-family: Dolce;
+	src: url(../fonts/Dolce.ttf);
+}
+
+
+@font-face {
+	font-family: DolceBold;
+	src: url(../fonts/DolceBold.ttf);
+}
+
+
 //------------------Components
 @import './Components/form';
 //------------------Layout
