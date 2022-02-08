@@ -50,36 +50,37 @@
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        h6 {
+          .alignShadow{
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+          }
+          h6 {
+            @extend .alignShadow;
             width: auto;
             font-size: 3rem;
             color: white;
-            text-align: center;
             padding-bottom: 1rem;
-            text-shadow: 1px 1px 2px black;
           }
 
           p {
+            @extend .alignShadow;
             font-family: sans-serif;
             font-size: 1.5rem;
             width: 90%;
-            text-align: center;
             color: white;
-            text-shadow: 2px 2px 2px #111111;
             padding-bottom: 0.5rem;
           }
           a {
+            @extend .alignShadow;
             font-size: 2rem;
             display: flex;
             justify-content: center;
-            align-items: center;
             text-decoration: none;
             height: 10%;
             width: 40%;
             background-color: red;
             color: white;
             border-radius: 15px;
-            text-shadow: 1px 1px 2px black;
             &:hover {
                 box-shadow: 3px 3px rgba(128, 128, 128, 0.295);
                 color: white;

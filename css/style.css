@@ -379,6 +379,84 @@ header .retoquesNav {
       justify-content: center;
       align-items: center;
       margin: 0 auto; }
+      .containerSideProjects .microCosmos .info .alignShadow, .containerSideProjects .microCosmos .info h6,
+      .containerSideProjects .microCosmos .beastOfClay .info h6, .containerSideProjects .beastOfClay .microCosmos .info h6,
+      .containerSideProjects .microCosmos .asuntosInternos .info h6, .containerSideProjects .asuntosInternos .microCosmos .info h6,
+      .containerSideProjects .microCosmos .ost .info h6, .containerSideProjects .ost .microCosmos .info h6, .containerSideProjects .microCosmos .info p,
+      .containerSideProjects .microCosmos .beastOfClay .info p, .containerSideProjects .beastOfClay .microCosmos .info p,
+      .containerSideProjects .microCosmos .asuntosInternos .info p, .containerSideProjects .asuntosInternos .microCosmos .info p,
+      .containerSideProjects .microCosmos .ost .info p, .containerSideProjects .ost .microCosmos .info p, .containerSideProjects .microCosmos .info a,
+      .containerSideProjects .microCosmos .beastOfClay .info a, .containerSideProjects .beastOfClay .microCosmos .info a,
+      .containerSideProjects .microCosmos .asuntosInternos .info a, .containerSideProjects .asuntosInternos .microCosmos .info a,
+      .containerSideProjects .microCosmos .ost .info a, .containerSideProjects .ost .microCosmos .info a,
+      .containerSideProjects .beastOfClay .info .alignShadow,
+      .containerSideProjects .beastOfClay .microCosmos .info h6,
+      .containerSideProjects .microCosmos .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .ost .info h6,
+      .containerSideProjects .ost .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .microCosmos .info p,
+      .containerSideProjects .microCosmos .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .ost .info p,
+      .containerSideProjects .ost .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .microCosmos .info a,
+      .containerSideProjects .microCosmos .beastOfClay .info a,
+      .containerSideProjects .beastOfClay .info a,
+      .containerSideProjects .beastOfClay .asuntosInternos .info a,
+      .containerSideProjects .asuntosInternos .beastOfClay .info a,
+      .containerSideProjects .beastOfClay .ost .info a,
+      .containerSideProjects .ost .beastOfClay .info a,
+      .containerSideProjects .asuntosInternos .info .alignShadow,
+      .containerSideProjects .asuntosInternos .microCosmos .info h6,
+      .containerSideProjects .microCosmos .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .ost .info h6,
+      .containerSideProjects .ost .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .microCosmos .info p,
+      .containerSideProjects .microCosmos .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .ost .info p,
+      .containerSideProjects .ost .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .microCosmos .info a,
+      .containerSideProjects .microCosmos .asuntosInternos .info a,
+      .containerSideProjects .asuntosInternos .beastOfClay .info a,
+      .containerSideProjects .beastOfClay .asuntosInternos .info a,
+      .containerSideProjects .asuntosInternos .info a,
+      .containerSideProjects .asuntosInternos .ost .info a,
+      .containerSideProjects .ost .asuntosInternos .info a,
+      .containerSideProjects .ost .info .alignShadow,
+      .containerSideProjects .ost .microCosmos .info h6,
+      .containerSideProjects .microCosmos .ost .info h6,
+      .containerSideProjects .ost .beastOfClay .info h6,
+      .containerSideProjects .beastOfClay .ost .info h6,
+      .containerSideProjects .ost .asuntosInternos .info h6,
+      .containerSideProjects .asuntosInternos .ost .info h6,
+      .containerSideProjects .ost .info h6,
+      .containerSideProjects .ost .microCosmos .info p,
+      .containerSideProjects .microCosmos .ost .info p,
+      .containerSideProjects .ost .beastOfClay .info p,
+      .containerSideProjects .beastOfClay .ost .info p,
+      .containerSideProjects .ost .asuntosInternos .info p,
+      .containerSideProjects .asuntosInternos .ost .info p,
+      .containerSideProjects .ost .info p,
+      .containerSideProjects .ost .microCosmos .info a,
+      .containerSideProjects .microCosmos .ost .info a,
+      .containerSideProjects .ost .beastOfClay .info a,
+      .containerSideProjects .beastOfClay .ost .info a,
+      .containerSideProjects .ost .asuntosInternos .info a,
+      .containerSideProjects .asuntosInternos .ost .info a,
+      .containerSideProjects .ost .info a {
+        text-align: center;
+        text-shadow: 1px 1px 2px black; }
       .containerSideProjects .microCosmos .info h6,
       .containerSideProjects .beastOfClay .info h6,
       .containerSideProjects .asuntosInternos .info h6,
@@ -386,9 +464,7 @@ header .retoquesNav {
         width: auto;
         font-size: 3rem;
         color: white;
-        text-align: center;
-        padding-bottom: 1rem;
-        text-shadow: 1px 1px 2px black; }
+        padding-bottom: 1rem; }
       .containerSideProjects .microCosmos .info p,
       .containerSideProjects .beastOfClay .info p,
       .containerSideProjects .asuntosInternos .info p,
@@ -396,9 +472,7 @@ header .retoquesNav {
         font-family: sans-serif;
         font-size: 1.5rem;
         width: 90%;
-        text-align: center;
         color: white;
-        text-shadow: 2px 2px 2px #111111;
         padding-bottom: 0.5rem; }
       .containerSideProjects .microCosmos .info a,
       .containerSideProjects .beastOfClay .info a,
@@ -407,14 +481,12 @@ header .retoquesNav {
         font-size: 2rem;
         display: flex;
         justify-content: center;
-        align-items: center;
         text-decoration: none;
         height: 10%;
         width: 40%;
         background-color: red;
         color: white;
-        border-radius: 15px;
-        text-shadow: 1px 1px 2px black; }
+        border-radius: 15px; }
         .containerSideProjects .microCosmos .info a:hover,
         .containerSideProjects .beastOfClay .info a:hover,
         .containerSideProjects .asuntosInternos .info a:hover,
