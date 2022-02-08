@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="reproductor, música, el hombre ilustrado">
+    <meta name="description" content="Reproductor con algunas canciones de El Hombre Ilustrado">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Player</title>
+    <title>Player | El Hombre Ilustrado</title>
 </head>
 
 <body>
@@ -26,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                        <a class="nav-link" href="./player.html">Player</a>
+                        <a class="nav-link paginaActual" href="./player.html">Player</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
@@ -62,8 +64,8 @@
     <main class="mainPlayer">
         <section class="contenedorPlayer">
             <!-- Button trigger modal -->
-            <img data-bs-toggle="modal" data-bs-target="#exampleModal1" src="../images/saber soltar.jpg"
-            alt="flores y mariposas">
+            <img class="imgPlayer" data-bs-toggle="modal" data-bs-target="#exampleModal1" src="../images/saber soltar.jpg"
+            alt="ilustracion torso de hombre con fondo surrealista">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -79,7 +81,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal2" src="../images/flores y mariposas_fondo_feed.jpg"
-            alt="flores y mariposas">
+            alt="ilustracion mujer con mariposas">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -95,7 +97,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal3" src="../images/sentir y coincidir.jpg"
-            alt="flores y mariposas">
+            alt="foto de mujer en el bosque">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -111,7 +113,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal4" src="../images/algernon.jpg"
-            alt="flores y mariposas">
+            alt="foto detalle de una flor">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -127,7 +129,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal5" src="../images/amaterasu.jpg"
-            alt="flores y mariposas">
+            alt="foto de un foquito de luz rojo">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -143,7 +145,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal6" src="../images/being vulnerable is a shield.jpg"
-            alt="flores y mariposas">
+            alt="vidrio esmerilado multicolor">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -159,7 +161,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal7" src="../images/banquina.jpg"
-            alt="flores y mariposas">
+            alt="foto de barcos en el puerto">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -175,7 +177,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal8" src="../images/al final la soledad es una virtud.jpg"
-            alt="flores y mariposas">
+            alt="ilustracion punto luminoso en la oscuridad">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -191,7 +193,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal9" src="../images/talvezellalohara.jpg"
-            alt="flores y mariposas">
+            alt="ilustracion cientifica de dos pulmones humanos">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -207,7 +209,7 @@
 
             <!-- Button trigger modal -->
             <img data-bs-toggle="modal" data-bs-target="#exampleModal10" src="../images/transicion.jpg"
-            alt="flores y mariposas">
+            alt="foto de una nebulosa">
             <!-- Modal -->
             <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl">
@@ -230,11 +232,11 @@
         <ul class="nav  col-md-4 justify-content-end list-unstyled d-flex">
             <li class="ms-3"><a class="text-muted"
                     href="https://open.spotify.com/artist/6K0GBLmWO19EuZlIv00Aqb?si=3NJeUvsYSsWmzWfxAL3c6A"
-                    target="_blank"><img src="../images/Spotify logo.png" alt="Spotify"></a></li>
+                    target="_blank"><img src="../images/Spotify logo.png" alt="link a Spotify"></a></li>
             <li class="ms-3"><a class="text-muted" href="https://www.youtube.com/channel/UCQ1xeE-8V2i7qBcjPnw6cyA"
-                    target="_blank"><img src="../images/youtube logo.png" alt="Youtube"></a></li>
+                    target="_blank"><img src="../images/youtube logo.png" alt="link a Youtube"></a></li>
             <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/el.hombre_ilustrado/"
-                    target="_blank"><img src="../images/Instagram logo.png" alt="Instagram"></a></li>
+                    target="_blank"><img src="../images/Instagram logo.png" alt="link a Instagram"></a></li>
         </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

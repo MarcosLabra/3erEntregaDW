@@ -1,0 +1,21 @@
+-Pongo el html lang en "es" en todas las secciones
+
+-Cambio los titulos de todos los html por el siguiente formato "seccion | nombre del sitio"
+
+-agrego keywords:   index: "el hombre ilustrado,música, instrumental, solista, artista, argentina, multinstrumentista, ambiental"
+                    bio:"biografia, informacion del artista"
+                    contact: "contacto, formulario, mensajeria"
+                    player: "reproductor, música, el hombre ilustrado"
+                    side-projects:" proyectos paralelos, bandas, freelance, beast of clay, asuntos internos, microcosmos, marcos labra"
+
+-agrego descripcion:    index:"Sitio oficial de El Hombre Ilustrado, proyecto solista del músico multinstrumentista Marcos Labra"
+                        bio: "Breve biografia de Marcos Labra cuyo pseudonimo es El Hombre Ilustrado"
+                        contact: "contactese conmigo por este medio"
+                        player: "reproductor con algunas canciones de El Hombre Ilustrado"
+                        side-projects: "proyectos paralelos o en los cuales participo Marcos Labra"
+
+-genero y agrego un sitemap.xml en la carpeta raiz
+
+-corroboro que todas las secciones esten optimizadas para movil con la prueba de optimizacion de moviles de google
+
+-completo todos los alt de las imagenes

@@ -29,10 +29,18 @@ header{
         div{
             ul{
                 li{
+
                     font-size: 2rem;
                     .nav-link{
                         &:hover{
                             color: teal !important;
+                            text-shadow: 2px 2px 2px #97979754;
+                        }
+                    }
+                    .paginaActual{
+                        color: teal !important;
+                        &:hover{
+                            text-shadow: 2px 2px 2px #97979754;
                         }
                     }
                 }

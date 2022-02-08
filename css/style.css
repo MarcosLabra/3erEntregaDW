@@ -90,7 +90,12 @@ header .navbar {
   header .navbar div ul li {
     font-size: 2rem; }
     header .navbar div ul li .nav-link:hover {
+      color: teal !important;
+      text-shadow: 2px 2px 2px #97979754; }
+    header .navbar div ul li .paginaActual {
       color: teal !important; }
+      header .navbar div ul li .paginaActual:hover {
+        text-shadow: 2px 2px 2px #97979754; }
   header .navbar div ul .dropdown-item:hover {
     color: whitesmoke;
     background-color: teal; }
@@ -199,10 +204,13 @@ header .retoquesNav {
   justify-content: center; }
   .mainBio .desktop {
     display: none !important; }
-  .mainBio .mobile div img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(58, 57, 57, 0.205); }
+  .mainBio .mobile div {
+    display: flex;
+    justify-content: center; }
+    .mainBio .mobile div img {
+      width: 100%;
+      border-radius: 15px;
+      box-shadow: 2px 2px 5px rgba(58, 57, 57, 0.205); }
   .mainBio .mobile div p {
     padding: 1rem;
     font-size: 1.5rem;
@@ -259,9 +267,9 @@ header .retoquesNav {
     justify-content: center; }
     .mainPlayer .contenedorPlayer img {
       width: 80vw;
-      margin: 1rem;
       box-shadow: 3px 3px 5px rgba(46, 45, 45, 0.205);
       border-radius: 50px;
+      margin: 1rem;
       margin-top: 1.5rem;
       cursor: pointer;
       transition: .5s; }
