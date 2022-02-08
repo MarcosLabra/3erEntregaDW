@@ -40,6 +40,20 @@ form {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     }
+    .msjForm{
+        font-size: 1.5rem;
+        background-color: white;
+        padding: 2rem;
+        text-align: center;
+        span{
+            font-size: 1.5rem;
+            color: teal;
+        }
+        p{
+            font-size: 1.5rem;
+        }
+
+    }
   }
 //---------------------MEDIA-QUERIES
 @media (min-width:768px){
@@ -62,6 +76,19 @@ form {
         }
         .btn-primary {
         font-size: 3rem;
+        }
+        .msjForm{
+            font-size: 2.5rem;
+            background-color: white;
+            padding: 2rem;
+            text-align: center;
+            span{
+                font-size: 2.5rem;
+                color: teal;
+            }
+            p{
+                font-size: 2.5rem;
+            }
         }
       }
 }

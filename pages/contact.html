@@ -57,20 +57,20 @@
         </nav>
     </header>
     <main class="d-flex container d-flex justify-content-center align-items-center mainContact">
-        <form class="d-flex flex-column col-10 col-md-8 col-lg-6 col-xl-6">
+        <form id="form" class="d-flex flex-column col-10 col-md-8 col-lg-6 col-xl-6">
             <div class="form-floating">
-                <input type="text" class="form-control" id="floatingText" placeholder="Nombre">
+                <input id="nombre" type="text" class="form-control" id="floatingText" placeholder="Nombre">
                 <label for="floatingText">Nombre</label>
               </div>
             <div class="form-floating mb-3">
-                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
+                <input id="email" type="email" class="form-control" id="floatingInput" placeholder="Email">
                 <label for="floatingInput">Email</label>
               </div>
               <div class="form-floating">
                 <textarea  class="form-control" placeholder="Mensaje" id="floatingTextarea"></textarea>
                 <label for="floatingTextarea">Mensaje</label>
               </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div id="btnSubmit" class="btn btn-primary">Submit</div>
           </form>
     </main>
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top retoquesFooter">
@@ -84,5 +84,19 @@
           </ul>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+
+        document.getElementById("btnSubmit").addEventListener("click",
+        () => {
+        const nombreCliente = document.getElementById("nombre").value;
+        const emailCliente  = document.getElementById("email").value;
+        const form = document.getElementById("form")
+        form.innerHTML = "";
+        let mensaje =`<div class="msjForm">Gracias <span>${nombreCliente}</span> por comunicarte! 
+                    <p>a la brevedad recibira respuesta en <span>${emailCliente}</span></p>
+                    </div>`;
+        form.innerHTML = mensaje;
+         })
+    </script>
 </body>
 </html>

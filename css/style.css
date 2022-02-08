@@ -35,6 +35,16 @@ form {
     margin: 0 auto;
     margin-bottom: 1rem;
     font-size: 1.5rem; }
+  form .msjForm {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: center; }
+    form .msjForm span {
+      font-size: 1.5rem;
+      color: teal; }
+    form .msjForm p {
+      font-size: 1.5rem; }
 
 @media (min-width: 768px) {
   form {
@@ -48,7 +58,17 @@ form {
       font-size: 2.5rem !important;
       padding-top: 3rem !important; }
     form .btn-primary {
-      font-size: 3rem; } }
+      font-size: 3rem; }
+    form .msjForm {
+      font-size: 2.5rem;
+      background-color: white;
+      padding: 2rem;
+      text-align: center; }
+      form .msjForm span {
+        font-size: 2.5rem;
+        color: teal; }
+      form .msjForm p {
+        font-size: 2.5rem; } }
 
 @media (min-width: 1200px) {
   form {
