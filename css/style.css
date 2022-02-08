@@ -456,14 +456,14 @@ header .retoquesNav {
       .containerSideProjects .asuntosInternos .ost .info a,
       .containerSideProjects .ost .info a {
         text-align: center;
-        text-shadow: 1px 1px 2px black; }
+        text-shadow: 1px 1px 2px black;
+        color: white; }
       .containerSideProjects .microCosmos .info h6,
       .containerSideProjects .beastOfClay .info h6,
       .containerSideProjects .asuntosInternos .info h6,
       .containerSideProjects .ost .info h6 {
         width: auto;
         font-size: 3rem;
-        color: white;
         padding-bottom: 1rem; }
       .containerSideProjects .microCosmos .info p,
       .containerSideProjects .beastOfClay .info p,
@@ -472,7 +472,6 @@ header .retoquesNav {
         font-family: sans-serif;
         font-size: 1.5rem;
         width: 90%;
-        color: white;
         padding-bottom: 0.5rem; }
       .containerSideProjects .microCosmos .info a,
       .containerSideProjects .beastOfClay .info a,
@@ -485,7 +484,6 @@ header .retoquesNav {
         height: 10%;
         width: 40%;
         background-color: red;
-        color: white;
         border-radius: 15px; }
         .containerSideProjects .microCosmos .info a:hover,
         .containerSideProjects .beastOfClay .info a:hover,
