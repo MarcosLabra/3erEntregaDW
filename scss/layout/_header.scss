@@ -28,8 +28,30 @@ header{
             }
         div{
             ul{
+                .dropdown{
+                    display: flex;
+                    align-items: center;
+                    a{
+                        color: rgba(0,0,0,.55);
+                        text-decoration: none;
+                        &:hover{
+                            color: teal !important;
+                            text-shadow: 2px 2px 2px #97979754;
+                        }
+                    }
+                    ul{
+                        .dropdown-item{
+                            &:hover{
+                                color: white !important;
+                                background-color: teal;
+                            }
+                        }
+                    }
+                    .dropdown-toggle{
+                        padding-left: 0.5rem;
+                    }
+                }
                 li{
-
                     font-size: 2rem;
                     .nav-link{
                         &:hover{
@@ -42,16 +64,6 @@ header{
                         &:hover{
                             text-shadow: 2px 2px 2px #97979754;
                         }
-                    }
-                }
-            }
-        }
-        div{
-            ul{
-                .dropdown-item{
-                    &:hover{
-                        color: whitesmoke;
-                        background-color: teal;
                     }
                 }
             }

@@ -107,6 +107,20 @@ header .navbar {
     font-size: 2rem;
     right: 2rem;
     top: 3.9vh; }
+  header .navbar div ul .dropdown {
+    display: flex;
+    align-items: center; }
+    header .navbar div ul .dropdown a {
+      color: rgba(0, 0, 0, 0.55);
+      text-decoration: none; }
+      header .navbar div ul .dropdown a:hover {
+        color: teal !important;
+        text-shadow: 2px 2px 2px #97979754; }
+    header .navbar div ul .dropdown ul .dropdown-item:hover {
+      color: white !important;
+      background-color: teal; }
+    header .navbar div ul .dropdown .dropdown-toggle {
+      padding-left: 0.5rem; }
   header .navbar div ul li {
     font-size: 2rem; }
     header .navbar div ul li .nav-link:hover {
@@ -116,9 +130,6 @@ header .navbar {
       color: teal !important; }
       header .navbar div ul li .paginaActual:hover {
         text-shadow: 2px 2px 2px #97979754; }
-  header .navbar div ul .dropdown-item:hover {
-    color: whitesmoke;
-    background-color: teal; }
 
 header .retoquesNav {
   font-family: "Dolce";
