@@ -1,119 +1,108 @@
 form {
-    background: #0cebeb; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-        to bottom,
-        #29ffc6,
-        #20e3b2,
-        #0cebeb
-    );
-    background: linear-gradient(
-        to bottom,
-        #29ffc6,
-        #20e3b2,
-        #0cebeb
-    );
-    box-shadow: 20px 20px 62px #9d9d9d, -20px -20px 62px #ffffff;
-    div {
-        margin: 1rem;
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);
+  box-shadow: 20px 20px 62px #9d9d9d, -20px -20px 62px #ffffff;
+  div {
+    margin: 1rem;
+  }
+  div {
+    label {
+      font-size: 1.5rem;
     }
-    div{
-        label{
-            font-size: 1.5rem;
-        }
+  }
+  div {
+    input {
+      height: 5rem !important;
+      font-size: 1.5rem !important;
     }
-    div{
-        input{
-            height: 5rem !important;
-            font-size: 1.5rem !important;
-        }
+  }
+  div {
+    textarea {
+      font-size: 1.5rem !important;
+      height: 25vh !important;
+      padding-top: 2rem !important;
     }
-    div{
-        textarea{
-            font-size: 1.5rem !important;
-            height: 25vh !important;
-            padding-top: 2rem !important;
-        }
-    }
-    .btn-primary {
+  }
+  .btn-primary {
     width: 60%;
     margin: 0 auto;
     margin-bottom: 1rem;
     font-size: 1.5rem;
+  }
+  .msjForm {
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+    span {
+      font-size: 1.5rem;
+      color: teal;
     }
-    .msjForm{
-        font-size: 1.5rem;
-        background-color: white;
-        padding: 2rem;
-        text-align: center;
-        span{
-            font-size: 1.5rem;
-            color: teal;
-        }
-        p{
-            font-size: 1.5rem;
-        }
-
+    p {
+      font-size: 1.5rem;
     }
   }
+}
 //---------------------MEDIA-QUERIES
-@media (min-width:768px){
-    form {
-        width: 70vw !important;
-        div {
-            margin: 2rem;
-        }
-        div{
-            input{
-                height: 7rem !important;
-                font-size: 2.5rem !important;
-            }
-        }
-        div{
-            textarea{
-                font-size: 2.5rem !important;
-                padding-top: 3rem !important;
-            }
-        }
-        .btn-primary {
-        font-size: 3rem;
-        }
-        .msjForm{
-            font-size: 2.5rem;
-            background-color: white;
-            padding: 2rem;
-            text-align: center;
-            span{
-                font-size: 2.5rem;
-                color: teal;
-            }
-            p{
-                font-size: 2.5rem;
-            }
-        }
-      }
-}
-
-@media (min-width:1200px){
-    form {
-        width: 35vw !important;
-        div {
-            margin: 2rem;
-        }
-        div{
-            input{
-                height: 5rem !important;
-                font-size: 2rem !important;
-            }
-        }
-        .btn-primary {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-        }
+@media (min-width: 768px) {
+  form {
+    width: 70vw !important;
+    div {
+      margin: 2rem;
     }
+    div {
+      input {
+        height: 7rem !important;
+        font-size: 2.5rem !important;
+      }
+    }
+    div {
+      textarea {
+        font-size: 2.5rem !important;
+        padding-top: 3rem !important;
+      }
+    }
+    .btn-primary {
+      font-size: 3rem;
+    }
+    .msjForm {
+      font-size: 2.5rem;
+      background-color: white;
+      padding: 2rem;
+      text-align: center;
+      span {
+        font-size: 2.5rem;
+        color: teal;
+      }
+      p {
+        font-size: 2.5rem;
+      }
+    }
+  }
 }
 
-@media (min-width:1600px){
-    form {
-        width: 25vw !important;
+@media (min-width: 1200px) {
+  form {
+    width: 35vw !important;
+    div {
+      margin: 2rem;
+    }
+    div {
+      input {
+        height: 5rem !important;
+        font-size: 2rem !important;
       }
+    }
+    .btn-primary {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  form {
+    width: 25vw !important;
+  }
 }

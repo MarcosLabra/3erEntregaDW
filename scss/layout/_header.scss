@@ -1,157 +1,156 @@
-header{
-    .navbar {
-        position: fixed !important;
-        z-index: 1;
-        top: 0;
-        width: 100vw;
-        div{
-            .navbar-brand {
-                font-family: "DolceBold";
-                font-size: 2rem;
-                transition: .5s;
-                img {
-                    height: 10vh;
-                    }
-                &:hover {
-                    transform: scale(1.1);
-                    -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.445));
-                    filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.479));
-                    color: crimson;
-                    }
-                }
-            }
-        .navbar-toggler {
-            position: fixed;
-            font-size: 2rem;
-            right: 2rem;
-            top: 3.9vh;
-            }
-        div{
-            ul{
-                .dropdown{
-                    display: flex;
-                    align-items: center;
-                    a{
-                        color: rgba(0,0,0,.55);
-                        text-decoration: none;
-                        &:hover{
-                            color: teal !important;
-                            text-shadow: 2px 2px 2px #97979754;
-                        }
-                    }
-                    ul{
-                        .dropdown-item{
-                            &:hover{
-                                color: white !important;
-                                background-color: teal;
-                            }
-                        }
-                    }
-                    .dropdown-toggle{
-                        padding-left: 0.5rem;
-                    }
-                }
-                li{
-                    font-size: 2rem;
-                    .nav-link{
-                        &:hover{
-                            color: teal !important;
-                            text-shadow: 2px 2px 2px #97979754;
-                        }
-                    }
-                    .paginaActual{
-                        color: teal !important;
-                        &:hover{
-                            text-shadow: 2px 2px 2px #97979754;
-                        }
-                    }
-                }
-            }
+header {
+  .navbar {
+    position: fixed !important;
+    z-index: 1;
+    top: 0;
+    width: 100vw;
+    div {
+      .navbar-brand {
+        font-family: "DolceBold";
+        font-size: 2rem;
+        transition: 0.5s;
+        img {
+          height: 10vh;
         }
+        &:hover {
+          transform: scale(1.1);
+          -webkit-filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.445));
+          filter: drop-shadow(5px 5px 5px rgba(34, 34, 34, 0.479));
+          color: crimson;
+        }
+      }
     }
-    .retoquesNav {
-        font-family: "Dolce";
-        padding: 0.5rem;
-        background: whitesmoke; /* fallback for old browsers */
-        background: -webkit-linear-gradient(
-        to right,
-        white,
-        whitesmoke,
-        whitesmoke,
-        #d9dcdd
-        ); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(
-        to right,
-        white,
-        whitesmoke,
-        whitesmoke,
-        #d9dcdd
-        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    .navbar-toggler {
+      position: fixed;
+      font-size: 2rem;
+      right: 2rem;
+      top: 3.9vh;
     }
+    div {
+      ul {
+        .dropdown {
+          display: flex;
+          align-items: center;
+          a {
+            color: rgba(0, 0, 0, 0.55);
+            text-decoration: none;
+            &:hover {
+              color: teal !important;
+              text-shadow: 2px 2px 2px #97979754;
+            }
+          }
+          ul {
+            .dropdown-item {
+              &:hover {
+                color: white !important;
+                background-color: teal;
+              }
+            }
+          }
+          .dropdown-toggle {
+            padding-left: 0.5rem;
+          }
+        }
+        li {
+          font-size: 2rem;
+          .nav-link {
+            &:hover {
+              color: teal !important;
+              text-shadow: 2px 2px 2px #97979754;
+            }
+          }
+          .paginaActual {
+            color: teal !important;
+            &:hover {
+              text-shadow: 2px 2px 2px #97979754;
+            }
+          }
+        }
+      }
+    }
+  }
+  .retoquesNav {
+    font-family: "Dolce";
+    padding: 0.5rem;
+    background: whitesmoke; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      white,
+      whitesmoke,
+      whitesmoke,
+      #d9dcdd
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      white,
+      whitesmoke,
+      whitesmoke,
+      #d9dcdd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 }
 
 //---------------------------MEDIA-QUERIES
 @media (min-width: 560px) {
-    header{
-        .navbar{
-            div{
-                .navbar-brand {
-                    padding-left: 1rem;
-                    font-size: 3rem !important;
-                }
-            }
-            .navbar-toggler {
-                font-size: 3rem;
-                top: 3.9vh;
-                right: 4rem;
-            }
-            div{
-                ul{
-                    li{
-                        font-size: 3rem;
-                        padding-left: 2rem;
-                    }
-                }
-            }
+  header {
+    .navbar {
+      div {
+        .navbar-brand {
+          padding-left: 1rem;
+          font-size: 3rem !important;
         }
+      }
+      .navbar-toggler {
+        font-size: 3rem;
+        top: 3.9vh;
+        right: 4rem;
+      }
+      div {
+        ul {
+          li {
+            font-size: 3rem;
+            padding-left: 2rem;
+          }
+        }
+      }
     }
+  }
 }
 @media (min-width: 1200px) {
-    header{
-        .navbar{
-            div{
-                ul{
-                    li{
-                        font-size: 2.5rem;
-                        padding-left: 2rem;
-                        ul{
-                            li{
-                                font-size: 2rem;
-                            }
-                        }
-                    }
-                }
+  header {
+    .navbar {
+      div {
+        ul {
+          li {
+            font-size: 2.5rem;
+            padding-left: 2rem;
+            ul {
+              li {
+                font-size: 2rem;
+              }
             }
+          }
         }
+      }
     }
+  }
 }
 @media (min-width: 1600px) {
-    header{
-        .navbar{
-            div{
-                ul{
-                    li{
-                        font-size: 3rem;
-                        padding-left: 2rem;
-                        ul{
-                            li{
-                                font-size: 2.5rem;
-                            }
-                        }
-                    }
-                }
+  header {
+    .navbar {
+      div {
+        ul {
+          li {
+            font-size: 3rem;
+            padding-left: 2rem;
+            ul {
+              li {
+                font-size: 2.5rem;
+              }
             }
+          }
         }
+      }
     }
+  }
 }
-

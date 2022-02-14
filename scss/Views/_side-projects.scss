@@ -1,27 +1,27 @@
 .containerSideProjects {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 12vh;
-    padding-bottom: 8vh;
-    .microCosmos {
-        background-image: url("../images/Microcosmos.jpg");
-      }
-      .beastOfClay {
-        background-image: url("../images/Beast\ of\ clay.jpg");
-      }
-      .asuntosInternos {
-        background-image: url("../images/Asuntos\ Internos.jpg");
-      }
-      .ost {
-        background-image: url("../images/music_score.jpg");
-        a {
-            background-color: orangered !important;
-          }
-      }
-    .microCosmos,
-    .beastOfClay,
-    .asuntosInternos,
-    .ost {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 12vh;
+  padding-bottom: 8vh;
+  .microCosmos {
+    background-image: url("../images/Microcosmos.jpg");
+  }
+  .beastOfClay {
+    background-image: url("../images/Beast\ of\ clay.jpg");
+  }
+  .asuntosInternos {
+    background-image: url("../images/Asuntos\ Internos.jpg");
+  }
+  .ost {
+    background-image: url("../images/music_score.jpg");
+    a {
+      background-color: orangered !important;
+    }
+  }
+  .microCosmos,
+  .beastOfClay,
+  .asuntosInternos,
+  .ost {
     width: 75vw;
     height: 42vh;
     background-size: cover;
@@ -31,136 +31,134 @@
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(46, 45, 45, 0.205);
     &:hover {
-        transform: scale(1.1);
-        &:hover .info {
-            opacity: 1;
-          }
+      transform: scale(1.1);
+      &:hover .info {
+        opacity: 1;
       }
+    }
     .info {
-        position: absolute;
-        width: 75vw;
-        height: 42vh;
-        -webkit-backdrop-filter: blur(5px);
-        backdrop-filter: blur(5px);
-        border-radius: 10px;
-        opacity: 0;
-        transition: opacity 0.3s;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-          .alignShadow{
-            text-align: center;
-            text-shadow: 1px 1px 2px black;
-            color: white;
-          }
-          h6 {
-            @extend .alignShadow;
-            width: auto;
-            font-size: 3rem;
-            padding-bottom: 1rem;
-          }
-
-          p {
-            @extend .alignShadow;
-            font-family: sans-serif;
-            font-size: 1.5rem;
-            width: 90%;
-            padding-bottom: 0.5rem;
-          }
-          a {
-            @extend .alignShadow;
-            font-size: 2rem;
-            display: flex;
-            justify-content: center;
-            text-decoration: none;
-            height: 10%;
-            width: 40%;
-            background-color: red;
-            border-radius: 15px;
-            &:hover {
-                box-shadow: 3px 3px rgba(128, 128, 128, 0.295);
-                color: white;
-              }
-          }
+      position: absolute;
+      width: 75vw;
+      height: 42vh;
+      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(5px);
+      border-radius: 10px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      .alignShadow {
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+        color: white;
       }
+      h6 {
+        @extend .alignShadow;
+        width: auto;
+        font-size: 3rem;
+        padding-bottom: 1rem;
+      }
+
+      p {
+        @extend .alignShadow;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        width: 90%;
+        padding-bottom: 0.5rem;
+      }
+      a {
+        @extend .alignShadow;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        height: 10%;
+        width: 40%;
+        background-color: red;
+        border-radius: 15px;
+        &:hover {
+          box-shadow: 3px 3px rgba(128, 128, 128, 0.295);
+          color: white;
+        }
+      }
+    }
   }
 }
 
 //---------------------------MEDIA-QUERIES
-@media (min-width: 768px){
-    .containerSideProjects {
-        .microCosmos,
-        .beastOfClay,
-        .asuntosInternos,
-        .ost {
-            width: 44vw;
-            height: 32.5vh;
-            margin: 1rem;
-            .info {
-                width: 44vw;
-                height: 32.5vh;
-                h6 {
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                  }
-                  p {
-                    font-size: 1.5rem;
-                  }
-                  a {
-                    margin-top: 1rem;
-                    font-size: 2.5rem;
-                  }
-            }
+@media (min-width: 768px) {
+  .containerSideProjects {
+    .microCosmos,
+    .beastOfClay,
+    .asuntosInternos,
+    .ost {
+      width: 44vw;
+      height: 32.5vh;
+      margin: 1rem;
+      .info {
+        width: 44vw;
+        height: 32.5vh;
+        h6 {
+          font-size: 3rem;
+          margin-bottom: 1rem;
         }
+        p {
+          font-size: 1.5rem;
+        }
+        a {
+          margin-top: 1rem;
+          font-size: 2.5rem;
+        }
+      }
     }
+  }
 }
-@media (min-width: 1200px){
-    .containerSideProjects {
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        .microCosmos,
-        .beastOfClay,
-        .asuntosInternos,
-        .ost {
-            width: 23vw;
-            height: 40vh;
-            .info {
-                width: 23vw;
-                height: 40vh;
-                h6 {
-                    font-size: 3rem;
-                    margin-bottom: 1rem;
-                  }
-                  p {
-                    font-size: 1.5rem;
-                  }
-                  a {
-                    margin-top: 1rem;
-                    font-size: 2.5rem;
-                  }
-            }
+@media (min-width: 1200px) {
+  .containerSideProjects {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .microCosmos,
+    .beastOfClay,
+    .asuntosInternos,
+    .ost {
+      width: 23vw;
+      height: 40vh;
+      .info {
+        width: 23vw;
+        height: 40vh;
+        h6 {
+          font-size: 3rem;
+          margin-bottom: 1rem;
         }
-    }
-}
-
-@media (min-width: 1600px){
-    .containerSideProjects {
-        .microCosmos,
-        .beastOfClay,
-        .asuntosInternos,
-        .ost {
-            width: 21vw;
-            height: 45vh;
-            margin: 2rem;
-            .info {
-                width: 21vw;
-                height: 45vh;
-            }
+        p {
+          font-size: 1.5rem;
         }
+        a {
+          margin-top: 1rem;
+          font-size: 2.5rem;
+        }
+      }
     }
+  }
 }
 
-
+@media (min-width: 1600px) {
+  .containerSideProjects {
+    .microCosmos,
+    .beastOfClay,
+    .asuntosInternos,
+    .ost {
+      width: 21vw;
+      height: 45vh;
+      margin: 2rem;
+      .info {
+        width: 21vw;
+        height: 45vh;
+      }
+    }
+  }
+}
