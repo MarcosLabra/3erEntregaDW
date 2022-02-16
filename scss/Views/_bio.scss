@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   .desktop {
-    display: none !important;
+    display: none ;
   }
   .mobile {
     div {
@@ -29,7 +29,7 @@
 @media (min-width: 768px) {
   .mainBio {
     .desktop {
-      display: flex !important;
+      display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 0;
@@ -55,7 +55,7 @@
       }
     }
     .mobile {
-      display: none !important;
+      display: none;
     }
   }
 }
@@ -64,7 +64,7 @@
   .mainBio {
     .desktop {
       div {
-        width: 35vw !important;
+        width: 35vw;
       }
       div {
         p {
@@ -78,7 +78,7 @@
   .mainBio {
     .desktop {
       div {
-        width: 25vw !important;
+        width: 25vw;
       }
       div {
         p {

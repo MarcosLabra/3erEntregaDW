@@ -86,7 +86,7 @@ form {
     width: 25vw !important; } }
 
 header .navbar {
-  position: fixed !important;
+  position: fixed;
   z-index: 1;
   top: 0;
   width: 100vw; }
@@ -115,20 +115,20 @@ header .navbar {
       color: rgba(0, 0, 0, 0.55);
       text-decoration: none; }
       header .navbar div ul .dropdown a:hover {
-        color: teal !important;
+        color: teal;
         text-shadow: 2px 2px 2px #97979754; }
     header .navbar div ul .dropdown ul .dropdown-item:hover {
-      color: white !important;
+      color: white;
       background-color: teal; }
     header .navbar div ul .dropdown .dropdown-toggle {
       padding-left: 0.5rem; }
   header .navbar div ul li {
     font-size: 2rem; }
     header .navbar div ul li .nav-link:hover {
-      color: teal !important;
+      color: teal;
       text-shadow: 2px 2px 2px #97979754; }
     header .navbar div ul li .paginaActual {
-      color: teal !important; }
+      color: teal; }
       header .navbar div ul li .paginaActual:hover {
         text-shadow: 2px 2px 2px #97979754; }
 
@@ -144,7 +144,7 @@ header .retoquesNav {
 @media (min-width: 560px) {
   header .navbar div .navbar-brand {
     padding-left: 1rem;
-    font-size: 3rem !important; }
+    font-size: 3rem; }
   header .navbar .navbar-toggler {
     font-size: 3rem;
     top: 3.9vh;
@@ -179,7 +179,7 @@ header .retoquesNav {
   width: 100vw;
   padding-right: 2rem; }
   .retoquesFooter div .text-muted {
-    font-size: 0.8rem !important;
+    font-size: 0.8rem;
     font-family: "Dolce"; }
     .retoquesFooter div .text-muted p {
       margin-bottom: 0;
@@ -195,7 +195,7 @@ header .retoquesNav {
 
 @media (min-width: 768px) {
   .retoquesFooter div .text-muted {
-    font-size: 1.5rem !important;
+    font-size: 1.5rem;
     padding-left: 1rem; }
     .retoquesFooter div .text-muted p {
       font-size: 2rem; }
@@ -204,7 +204,7 @@ header .retoquesNav {
 
 @media (min-width: 1200px) {
   .retoquesFooter div .text-muted {
-    font-size: 1rem !important; }
+    font-size: 1rem; }
     .retoquesFooter div .text-muted p {
       font-size: 1.5rem; }
   .retoquesFooter ul li img {
@@ -233,7 +233,7 @@ header .retoquesNav {
   display: flex;
   justify-content: center; }
   .mainBio .desktop {
-    display: none !important; }
+    display: none; }
   .mainBio .mobile div {
     display: flex;
     justify-content: center; }
@@ -248,7 +248,7 @@ header .retoquesNav {
 
 @media (min-width: 768px) {
   .mainBio .desktop {
-    display: flex !important;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
@@ -269,17 +269,17 @@ header .retoquesNav {
         border-bottom: 1px solid teal;
         border-radius: 10px; }
   .mainBio .mobile {
-    display: none !important; } }
+    display: none; } }
 
 @media (min-width: 1100px) {
   .mainBio .desktop div {
-    width: 35vw !important; }
+    width: 35vw; }
   .mainBio .desktop div p {
     font-size: 1.8rem; } }
 
 @media (min-width: 1600px) {
   .mainBio .desktop div {
-    width: 25vw !important; }
+    width: 25vw; }
   .mainBio .desktop div p {
     font-size: 1.8rem; } }
 
