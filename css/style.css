@@ -555,13 +555,13 @@ header .retoquesNav {
     .containerSideProjects .asuntosInternos,
     .containerSideProjects .ost {
       width: 23vw;
-      height: 40vh; }
+      height: 50vh; }
       .containerSideProjects .microCosmos .info,
       .containerSideProjects .beastOfClay .info,
       .containerSideProjects .asuntosInternos .info,
       .containerSideProjects .ost .info {
         width: 23vw;
-        height: 40vh; }
+        height: 50vh; }
         .containerSideProjects .microCosmos .info h6,
         .containerSideProjects .beastOfClay .info h6,
         .containerSideProjects .asuntosInternos .info h6,
