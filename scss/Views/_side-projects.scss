@@ -81,8 +81,13 @@
         background-color: red;
         border-radius: 15px;
         &:hover {
-          box-shadow: 3px 3px rgba(128, 128, 128, 0.295);
+          transform: translateY(-1px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
           color: white;
+        }
+        &:active {
+          transform: translateY(1px);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
         }
       }
     }

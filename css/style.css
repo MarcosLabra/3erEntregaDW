@@ -303,6 +303,9 @@ header .retoquesNav {
       transition: 0.5s; }
       .mainPlayer .contenedorPlayer img:hover {
         transform: scale(1.1); }
+      .mainPlayer .contenedorPlayer img:active {
+        transform: translateY(1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
     .mainPlayer .contenedorPlayer .modal-content {
       margin-top: 13vh;
       background-color: transparent;
@@ -498,8 +501,15 @@ header .retoquesNav {
         .containerSideProjects .beastOfClay .info a:hover,
         .containerSideProjects .asuntosInternos .info a:hover,
         .containerSideProjects .ost .info a:hover {
-          box-shadow: 3px 3px rgba(128, 128, 128, 0.295);
+          transform: translateY(-1px);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
           color: white; }
+        .containerSideProjects .microCosmos .info a:active,
+        .containerSideProjects .beastOfClay .info a:active,
+        .containerSideProjects .asuntosInternos .info a:active,
+        .containerSideProjects .ost .info a:active {
+          transform: translateY(1px);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); }
 
 @media (min-width: 768px) {
   .containerSideProjects .microCosmos,
