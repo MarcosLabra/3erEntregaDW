@@ -94,6 +94,8 @@ header .navbar {
     font-family: "DolceBold";
     font-size: 2rem;
     transition: 0.5s; }
+    header .navbar div .navbar-brand h1 {
+      display: inline-block; }
     header .navbar div .navbar-brand img {
       height: 10vh; }
     header .navbar div .navbar-brand:hover {
