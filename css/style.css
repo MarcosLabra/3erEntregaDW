@@ -49,12 +49,13 @@
       color: white;
       margin: 1rem; }
       .mainContact .formContact div .mainContact__button:hover {
-        background-color: #29ffc6;
-        box-shadow: 3px 3px grey;
+        background-color: aquamarine;
+        transform: translateY(-1px);
+        box-shadow: 3px 3px rgba(184, 179, 179, 0.295);
         color: teal; }
       .mainContact .formContact div .mainContact__button:active {
-        box-shadow: none;
-        color: blueviolet; }
+        transform: translateY(1px);
+        box-shadow: none; }
     .mainContact .formContact .msjForm {
       font-size: 1.5rem;
       background-color: white;

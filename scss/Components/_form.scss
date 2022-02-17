@@ -45,13 +45,14 @@
         color: white;
         margin: 1rem;
         &:hover {
-          background-color: #29ffc6;
-          box-shadow: 3px 3px grey;
+          background-color: aquamarine;
+          transform: translateY(-1px);
+          box-shadow: 3px 3px rgba(184, 179, 179, 0.295);
           color: teal;
         }
         &:active {
+          transform: translateY(1px);
           box-shadow: none;
-          color: blueviolet;
         }
       }
     }
