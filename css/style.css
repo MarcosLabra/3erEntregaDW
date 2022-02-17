@@ -13,77 +13,83 @@
   font-family: DolceBold;
   src: url(../fonts/DolceBold.ttf); }
 
-form {
-  background: #0cebeb;
-  /* fallback for old browsers */
-  background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);
-  box-shadow: 20px 20px 62px #9d9d9d, -20px -20px 62px #ffffff; }
-  form div {
-    margin: 1rem; }
-  form div label {
-    font-size: 1.5rem; }
-  form div input {
-    height: 5rem !important;
-    font-size: 1.5regm !important; }
-  form div textarea {
-    font-size: 1.5rem !important;
-    height: 25vh !important;
-    padding-top: 2rem !important; }
-  form .btn-primary {
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 1rem;
-    font-size: 1.5rem; }
-  form .msjForm {
-    font-size: 1.5rem;
-    background-color: white;
+.mainContact {
+  width: 100vw;
+  height: 73vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  text-align: center; }
+  .mainContact .formContact {
+    background: #0cebeb;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #29ffc6, #20e3b2, #0cebeb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 20px 20px 62px #9d9d9d, -20px -20px 62px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 2rem;
-    text-align: center; }
-    form .msjForm span {
+    border-radius: 10px; }
+    .mainContact .formContact div {
+      color: black; }
+    .mainContact .formContact input {
+      width: 55vw;
+      margin-bottom: 1rem;
+      text-align: center; }
+    .mainContact .formContact textarea {
+      padding: 0.5rem; }
+    .mainContact .formContact div .mainContact__button {
+      border-radius: 10px;
+      background-color: cadetblue;
+      color: white;
+      margin: 1rem; }
+      .mainContact .formContact div .mainContact__button:hover {
+        background-color: #29ffc6;
+        box-shadow: 3px 3px grey;
+        color: teal; }
+      .mainContact .formContact div .mainContact__button:active {
+        box-shadow: none;
+        color: blueviolet; }
+    .mainContact .formContact .msjForm {
       font-size: 1.5rem;
-      color: teal; }
-    form .msjForm p {
-      font-size: 1.5rem; }
+      background-color: white;
+      padding: 1rem;
+      text-align: center; }
+      .mainContact .formContact .msjForm span {
+        font-size: 1.5rem;
+        color: teal; }
+      .mainContact .formContact .msjForm p {
+        font-size: 1.5rem; }
 
 @media (min-width: 768px) {
-  form {
-    width: 70vw !important; }
-    form div {
-      margin: 2rem; }
-    form div input {
-      height: 7rem !important;
-      font-size: 2.5rem !important; }
-    form div textarea {
-      font-size: 2.5rem !important;
-      padding-top: 3rem !important; }
-    form .btn-primary {
-      font-size: 3rem; }
-    form .msjForm {
-      font-size: 2.5rem;
-      background-color: white;
-      padding: 2rem;
-      text-align: center; }
-      form .msjForm span {
-        font-size: 2.5rem;
-        color: teal; }
-      form .msjForm p {
-        font-size: 2.5rem; } }
+  .mainContact .formContact input {
+    width: 45vw;
+    font-size: 2rem; }
+  .mainContact .formContact textarea {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 45vw; }
+  .mainContact .formContact div .mainContact__button {
+    font-size: 2rem; }
+  .mainContact .formContact .msjForm {
+    font-size: 2rem; }
+    .mainContact .formContact .msjForm span {
+      font-size: 2rem; }
+    .mainContact .formContact .msjForm p {
+      font-size: 2rem; } }
 
 @media (min-width: 1200px) {
-  form {
-    width: 35vw !important; }
-    form div {
-      margin: 2rem; }
-    form div input {
-      height: 5rem !important;
-      font-size: 2rem !important; }
-    form .btn-primary {
-      font-size: 2rem;
-      margin-bottom: 2rem; } }
-
-@media (min-width: 1600px) {
-  form {
-    width: 25vw !important; } }
+  .mainContact .formContact input {
+    width: 20vw;
+    font-size: 1.5rem; }
+  .mainContact .formContact textarea {
+    width: 20vw;
+    font-size: 1.5rem; } }
 
 header .navbar {
   position: fixed;
