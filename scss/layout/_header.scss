@@ -6,7 +6,7 @@ header {
     width: 100vw;
     div {
       .navbar-brand {
-        font-family: "DolceBold";
+        font-family: $principalBold;
         font-size: 2rem;
         transition: 0.5s;
         h1{
@@ -63,7 +63,7 @@ header {
             }
           }
           .paginaActual {
-            color: teal;
+            color: teal !important;
             &:hover {
               text-shadow: 2px 2px 2px #97979754;
             }
@@ -73,7 +73,7 @@ header {
     }
   }
   .retoquesNav {
-    font-family: "Dolce";
+    font-family: $principal;
     padding: 0.5rem;
     background: whitesmoke; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
